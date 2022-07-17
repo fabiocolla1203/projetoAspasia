@@ -14,13 +14,12 @@
 
 header {
     background-color: rgb(23, 9, 221);
-    padding: 20px 0;
-    border-bottom: 1px solid rgb(200, 200, 200);
+    height: 100px;
 }
 
 .logo {
     color: #ffffff;
-    padding: 10px;
+    padding-top: 30px;
 }
 
 .logo h2 {
@@ -31,7 +30,7 @@ header {
 .menu {
     width: 80%;
     text-align: right;
-    padding: 20px;
+    padding-top: 40px;
 }
 
 .menu a {
@@ -52,67 +51,39 @@ main {
 
 footer {
     background-color: rgb(23, 9, 221);
-    padding: 20px 0;
-}
-
-.menu-footer {
-    max-width: 80%;
-    text-align: center;
-    padding: 5px;
-    color: #ffffff;
-    margin-left: 300px;
+    color: white;
 }
 
 .logo-footer {
-    color: #ffffff;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
+#menu-footer {
+    text-align: center;
+    margin-left: 200px;
+    padding: 10px;
+}
 
-.menu-footer li {
+#menu-footer li{
     list-style-type: none;
     padding: 5px;
 }
 
-.menu-footer a {
+#menu-footer li a {
     color: #ffffff;
     font-size: 14px;
     text-decoration: none;
+    margin-right: 20px;
     transition: 0.4s;
 }
 
-.menu-footer a:hover {
+#menu-footer a:hover {
     color: #007bff;
 }
 
-.menu-footer li a {
-    text-decoration: none;
-    color: #ffffff;
+#social-media {
+    text-align: center;
+    margin-left: 500px;
+    padding: 10px;
 }
 
-.social-media {
-    width: 80%;
-    text-align: right;
-    padding: 20px;
-    margin-left: 300px;
-}
-
-.social-media a {
-    color: white;
-    text-decoration: none;
-    transition: 0.4s;
-}
-
-.social-media a:hover {
-    color: #007bff;
-}
-
-.social-media li {
-    padding: 5px;
-    list-style-type: none;
-    text-align: left;
-}
-
-.social-media li img {
-    max-width: 20px;
-}
