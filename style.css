@@ -45,6 +45,23 @@ header {
     color: #007bff;
 }
 
+.menu button {
+    border: none;
+    padding: 5px;
+    background: violet;
+    border-radius: 10px;
+}
+
+.menu button a {
+    color: ;
+    font-weight: bolder;
+    margin-left: 18px;
+}
+
+.menu button a:hover {
+    color: rgb(56, 8, 56);
+}
+
 main {
     height: 425px;
 }
