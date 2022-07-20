@@ -1,0 +1,22 @@
+{
+  "name": "projetoaspasia",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabiocolla1203/projetoAspasia.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabiocolla1203/projetoAspasia/issues"
+  },
+  "homepage": "https://github.com/fabiocolla1203/projetoAspasia#readme",
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
+}
